@@ -16,6 +16,7 @@ public class Empleado {
     protected double salario;
     protected int identificacion;
     protected String estadocivil;
+    private int x;
 
     public Empleado(String nombre, int edad, double salario, int identificacion, String estadocivil) {
         this.nombre = nombre;
